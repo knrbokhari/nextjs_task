@@ -1,4 +1,5 @@
 import Content1 from '@/components/Content1'
+import Content2 from '@/components/Content2'
 import Main from '@/components/Main'
 import Head from 'next/head'
 
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
       <Main/>
       <Content1/>
+      <Content2/>
     </>
   )
 }
