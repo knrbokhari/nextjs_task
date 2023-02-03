@@ -1,3 +1,4 @@
+import Content1 from '@/components/Content1'
 import Main from '@/components/Main'
 import Head from 'next/head'
 
@@ -11,6 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Main/>
+      <Content1/>
     </>
   )
 }
