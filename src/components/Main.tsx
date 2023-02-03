@@ -1,4 +1,6 @@
 import React from 'react'
+import Image from "next/image";
+import Hero1 from '../images/hero1.png'
 
 const Main = () => {
   return (
@@ -22,8 +24,17 @@ const Main = () => {
                         </div>
                     </div>
                 </div>
+                <div className="">
+                <Image
+                  className=""
+                  src={Hero1}
+                  alt="/"
+                  width={500}
+                  height={480}
+                />           
             </div>
-            <div className=""></div>
+            </div>
+            
 
         </div>
     </div>
