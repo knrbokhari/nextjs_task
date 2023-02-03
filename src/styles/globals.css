@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: SportingGrotesque;
+    src: url('../font/SportingGrotesque-Regular.otf');
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url('../font/Poppins-Regular.ttf');
+}
