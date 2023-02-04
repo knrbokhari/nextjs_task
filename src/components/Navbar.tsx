@@ -33,8 +33,8 @@ const Navbar = () => {
         <div
     className={
       shadow
-        ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300 bg-white px-[25px] md:px-[8px]'
-        : 'fixed w-full h-20 z-[100] md:mt-[42px] bg-white md:bg-transparent px-[25px] md:px-[8px]'
+        ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300 bg-white px -[25px] md:px -[8px]'
+        : 'fixed w-full h-20 z-[100] md:mt-[42px] bg-white md:bg-transparent px -[25px] md:px -[8px]'
     }
   >
     <div className='container mx-auto flex justify-between items-center w-full h-[80px] '>
