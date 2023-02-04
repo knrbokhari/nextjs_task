@@ -10,8 +10,8 @@ import { IoIosArrowDroprightCircle, IoMdArrowDroprightCircle } from 'react-icons
 const Main = () => {
   return (
     <div className=''>
-        <div className="container mx-auto h-[757px]">
-            <div className="grid lg:grid-cols-2 items-end h-[757px]">
+        <div className="container mx-auto lg:h-[757px] pt-[155px] lg:pt-0">
+            <div className="grid lg:grid-cols-2 items-end lg:h-[757px]">
                 <div className="">
                     <h1 className='text-[#262524] max-w-[568px] text-[56px] leading-[73px] font-SportingGrotesque font-bold mb-[22px]'>Healthy in side <span className='text-[#8382EB]'>fresh</span> out side</h1>
                     <p className='text-[#26252499] text-[16px] leading-[28px] font-Poppins mb-[22px] w-[489px]'>Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine.</p>
@@ -45,7 +45,7 @@ const Main = () => {
                         </div>
                     </div>
                 </div>
-                <div className="">
+                <div className="mt-[72px] lg:mt-0">
                     <Image
                     className=""
                     src={Hero1}

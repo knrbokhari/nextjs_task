@@ -13,10 +13,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Main/>
-      <Content1/>
-      <Content2/>
-      <Content3/>
+      <div className='px-[25px] md:px-0'>
+        <Main/>
+        <Content1/>
+        <Content2/>
+        <Content3/>
+      </div>
     </>
   )
 }

@@ -33,11 +33,11 @@ const Navbar = () => {
         <div
     className={
       shadow
-        ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300 bg-white px-[25px]'
+        ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300 bg-white px-[25px] md:px-[8px]'
         : 'fixed w-full h-20 z-[100] md:mt-[42px] bg-white md:bg-transparent px-[25px] md:px-[8px]'
     }
   >
-    <div className='container mx-auto flex justify-between items-center w-full h-[80px] px-2 2xl:px-16'>
+    <div className='container mx-auto flex justify-between items-center w-full h-[80px] '>
       <Link href='/'>
         <p className='text-[#6765F0] font-SportingGrotesque text-xl'> <span className='text-white bg-[#6765F0] rounded-[10px] pl-[5px] pt-[3px] pr-[6px] pb-[2px] mr-[5px] shadow-[0px_20px_80px_rgba(51,_78,_123,_0.3)]'>Gym</span>baran </p>
       </Link>

@@ -6,8 +6,8 @@ import { ImArrowRight2 } from 'react-icons/im'
 
 const Content2 = () => {
   return (
-    <div className='container mx-auto md:p-[85px] bg-[linear-gradient(87.05deg,_#6462F0_0%,_#9190E9_95%)] rounded-[30px]'>
-        <div className="grid lg:grid-cols-3">
+    <div className='container mx-auto px-[28px] py-[35px] md:p-[85px] bg-[linear-gradient(87.05deg,_#6462F0_0%,_#9190E9_95%)] rounded-[30px]'>
+        <div className="lg:flex justify-between">
             <div className='flex flex-row items-center mb-[50px] lg:m-0'>
                 <div className='h-[100px] w-[100px] flex justify-center items-center bg-[#ffffff33] rounded-[20px]'>
                     <Image
@@ -38,7 +38,7 @@ const Content2 = () => {
                     <Link href='/' className='text-[#26252499] text-[16px] leading-[28px] font-Poppins flex items-center'>Learn more <ImArrowRight2 className='ml-[20px]'/> </Link>
                 </div>
             </div>
-            <div className='flex flex-row items-center mb-[50px] lg:m-0'>
+            <div className='flex flex-row items-center lg:m-0'>
                 <div className='h-[100px] w-[100px] flex justify-center items-center bg-[#ffffff33] rounded-[20px]'>
                     <Image
                         className=""
