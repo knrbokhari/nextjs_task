@@ -29,35 +29,36 @@ const Navbar = () => {
 
 
   return (
-    <div className='flex justify-center'>
+    <div className=''>
         <div
-    // style={{ backgroundColor: `${navBg}` }}
     className={
       shadow
-        ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300'
-        : 'fixed w-full h-20 z-[100] container'
+        ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300 bg-white px-[25px]'
+        : 'fixed w-full h-20 z-[100] md:mt-[42px] bg-white md:bg-transparent px-[25px] md:px-[8px]'
     }
   >
-    <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
+    <div className='container mx-auto flex justify-between items-center w-full h-[80px] px-2 2xl:px-16'>
       <Link href='/'>
-        <p className='text-[#6765F0] font-SportingGrotesque text-xl'> <span className='text-white bg-[#6765F0] rounded-[10px] pl-[5px] pt-[3px] pr-[6px] pb-[2px] mr-[5px]'>Gym</span>baran </p>
+        <p className='text-[#6765F0] font-SportingGrotesque text-xl'> <span className='text-white bg-[#6765F0] rounded-[10px] pl-[5px] pt-[3px] pr-[6px] pb-[2px] mr-[5px] shadow-[0px_20px_80px_rgba(51,_78,_123,_0.3)]'>Gym</span>baran </p>
       </Link>
       <div>
-        <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
+        <ul style={{ color: `${linkColor}` }} className='hidden md:flex items-center'>
           <li className='ml-10 text-sm uppercase hover:border-b'>
-            <Link href='/'>Home</Link>
+            <Link href='/' className='text-black font-Poppins text-[16px] leading-[24px]'>Home</Link>
           </li>
           <li className='ml-10 text-sm uppercase hover:border-b'>
-            <Link href='/'>Program</Link>
+            <Link href='/' className='text-black font-Poppins text-[16px] leading-[24px]'>Program</Link>
           </li>
           <li className='ml-10 text-sm uppercase hover:border-b'>
-            <Link href='/'>Blog</Link>
+            <Link href='/' className='text-black font-Poppins text-[16px] leading-[24px]'>Blog</Link>
           </li>
           <li className='ml-10 text-sm uppercase hover:border-b'>
-            <Link href='/'>About us</Link>
+            <Link href='/' className='text-black font-Poppins text-[16px] leading-[24px]'>About us</Link>
           </li>
           <li className='ml-10 text-sm uppercase hover:border-b'>
-            <Link href='/'>Log in</Link>
+            <Link href='/' className='text-black font-Poppins text-[16px] leading-[24px]'>
+              <button className='bg-[#264373] rounded-[10px] shadow-[0px_20px_80px_rgba(51,_78,_123,_0.3)] px-[34px] py-[15px] text-white font-Poppins text-[16px] leading-[24px] '>Log in</button>
+            </Link>
           </li>
         </ul>
         {/* Hamburger Icon */}
@@ -102,28 +103,28 @@ const Navbar = () => {
         <div className='py-4 flex flex-col'>
           <ul className='uppercase'>
             <Link href='/'>
-              <li onClick={() => setNav(false)} className='py-4 text-sm'>
+              <li onClick={() => setNav(false)} className='py-4 text-black font-Poppins text-[16px] leading-[24px]'>
                 Home
               </li>
             </Link>
             <Link href='/'>
-              <li onClick={() => setNav(false)} className='py-4 text-sm'>
+              <li onClick={() => setNav(false)} className='py-4 text-black font-Poppins text-[16px] leading-[24px]'>
                 Program
               </li>
             </Link>
             <Link href='/'>
-              <li onClick={() => setNav(false)} className='py-4 text-sm'>
+              <li onClick={() => setNav(false)} className='py-4 text-black font-Poppins text-[16px] leading-[24px]'>
               Blog
               </li>
             </Link>
             <Link href='/'>
-              <li onClick={() => setNav(false)} className='py-4 text-sm'>
+              <li onClick={() => setNav(false)} className='py-4 text-black font-Poppins text-[16px] leading-[24px]'>
               About us
               </li>
             </Link>
             <Link href='/'>
-              <li onClick={() => setNav(false)} className='py-4 text-sm'>
-                Log in
+              <li onClick={() => setNav(false)} className=''>
+                <button className='bg-[#264373] rounded-[10px] shadow-[0px_20px_80px_rgba(51,_78,_123,_0.3)] px-[34px] py-[15px] text-white font-Poppins text-[16px] leading-[24px] '>Log in</button>
               </li>
             </Link>
           </ul>
