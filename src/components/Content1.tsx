@@ -3,7 +3,7 @@ import React from 'react'
 const Content1 = () => {
   return (
     <div className='container mx-auto mt-[120px] mb-[60px] lg:my-[138px]'>
-        <div className="grid lg:grid-cols-2">
+        <div className="grid px-[25px] md:px-[8px] lg:grid-cols-2">
             <div>
                 <h2 className='text-[#262524] text-[46px] leading-[73px] font-SportingGrotesque'>Healthy in side fresh out side</h2>
             </div>
