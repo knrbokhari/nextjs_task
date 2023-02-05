@@ -15,12 +15,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <HomeFilter />
-      {/* <div className='px-[25px] md:px-0'> */}
         <Main/>
         <Content1/>
         <Content2/>
         <Content3/>
-      {/* </div> */}
     </>
   )
 }
