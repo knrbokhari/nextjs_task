@@ -39,7 +39,7 @@ const Content2 = () => {
                         </div>
                         <div className='ml-[30px]'>
                             <h3 className='font-Poppins font-bold text-[20px] leading-[28px] text-white w-[155px] mb-[16px] '>14 Days sherd challenge</h3>
-                            <Link href='/' className='text-[#FFFFFF] text-[16px] leading-[28px] font-Poppins flex items-center opacity-30'>Learn more <ImArrowRight2 className='ml-[20px]'/> </Link>
+                            <Link href='/' className='text-[#FFFFFF] text-[16px] leading-[28px] font-Poppins flex items-center opacity-30'>Learn more <ImArrowRight2 className='ml-[40px]'/> </Link>
                         </div>
                     </div>
                     <div className='flex flex-row items-center lg:m-0'>
