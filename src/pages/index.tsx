@@ -14,7 +14,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* <HomeFilter /> */}
+      <HomeFilter />
       {/* <div className='px-[25px] md:px-0'> */}
         <Main/>
         <Content1/>
