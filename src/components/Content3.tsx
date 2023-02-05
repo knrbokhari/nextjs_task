@@ -6,7 +6,7 @@ import { ImArrowRight2 } from 'react-icons/im'
 
 const Content3 = () => {
   return (
-    <div className="container mx-auto mb-[90px] mt-[120px]">
+    <div className="container mx-auto mb-[90px] mt-[120px] relative z-10">
             <div className='px-[25px] md:px-0'>
                 <div className="lg:flex lg:flex-row-reverse items-end">
                     <div className="basis-1/2">

@@ -8,9 +8,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 const Navbar = () => {
     const [nav, setNav] = useState(false);
     const [shadow, setShadow] = useState(false);
-    const [navBg, setNavBg] = useState('#ecf0f3');
     const [linkColor, setLinkColor] = useState('#1f2937');
-    const [position, setPosition] = useState('fixed')
 
     const handleNav = () => {
         setNav(!nav);
@@ -33,8 +31,8 @@ const Navbar = () => {
         <div
     className={
       shadow
-        ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300 bg-white px -[25px] md:px -[8px]'
-        : 'fixed w-full h-20 z-[100] md:mt-[42px] bg-white md:bg-transparent px -[25px] md:px -[8px]'
+        ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300 bg-white px-[25px] md:px -[8px]'
+        : 'fixed w-full h-20 z-[100] md:mt-[42px] bg-white md:bg-transparent px-[25px] md:px -[8px]'
     }
   >
     <div className='container mx-auto flex justify-between items-center w-full h-[80px] '>
@@ -42,7 +40,7 @@ const Navbar = () => {
         <p className='text-[#6765F0] font-SportingGrotesque text-xl'> <span className='text-white bg-[#6765F0] rounded-[10px] pl-[5px] pt-[3px] pr-[6px] pb-[2px] mr-[5px] shadow-[0px_20px_80px_rgba(51,_78,_123,_0.3)]'>Gym</span>baran </p>
       </Link>
       <div>
-        <ul style={{ color: `${linkColor}` }} className='hidden md:flex items-center'>
+        <ul className='hidden text-[#1f2937] md:flex items-center'>
           <li className='ml-10 text-sm uppercase hover:border-b'>
             <Link href='/' className='text-black font-Poppins text-[16px] leading-[24px]'>Home</Link>
           </li>

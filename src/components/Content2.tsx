@@ -8,7 +8,7 @@ import { ImArrowRight2 } from 'react-icons/im'
 
 const Content2 = () => {
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto relative z-10'>
         <div className='px-[25px] md:px-[0px]'>
             <div className='px-[28px] py-[35px] md:p-[85px] bg-[linear-gradient(87.05deg,_#6462F0_0%,_#9190E9_95%)] rounded-[30px]'>
                 <div className="lg:flex justify-between">
