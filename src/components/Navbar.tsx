@@ -40,7 +40,7 @@ const Navbar = () => {
         <p className='text-[#6765F0] font-SportingGrotesque text-xl'> <span className='text-white bg-[#6765F0] rounded-[10px] pl-[5px] pt-[3px] pr-[6px] pb-[2px] mr-[5px] shadow-[0px_20px_80px_rgba(51,_78,_123,_0.3)]'>Gym</span>baran </p>
       </Link>
       <div>
-        <ul className='hidden text-[#1f2937] md:flex items-center'>
+        <ul className='hidden text-[#1f2937] lg:flex items-center'>
           <li className='ml-10 text-sm uppercase hover:border-b'>
             <Link href='/' className='text-black font-Poppins text-[16px] leading-[24px]'>Home</Link>
           </li>
@@ -63,7 +63,7 @@ const Navbar = () => {
         <div
           style={{ color: `${linkColor}` }}
           onClick={handleNav}
-          className='md:hidden'
+          className='lg:hidden'
         >
           <AiOutlineMenu size={25} />
         </div>
@@ -74,14 +74,14 @@ const Navbar = () => {
     {/* Overlay */}
     <div
       className={
-        nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''
+        nav ? 'lg:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''
       }
     >
       {/* Side Drawer Menu */}
       <div
         className={
           nav
-            ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-white p-10 ease-in duration-500'
+            ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-white p-10 ease-in duration-500'
             : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
         }
       >

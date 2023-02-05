@@ -9,9 +9,9 @@ import { ImArrowRight2 } from 'react-icons/im'
 const Content2 = () => {
   return (
     <div className='container mx-auto relative z-10'>
-        <div className='px-[25px] md:px-[0px]'>
+        <div className='px-[25px] lg:px-[8px]'>
             <div className='px-[28px] py-[35px] md:p-[85px] bg-[linear-gradient(87.05deg,_#6462F0_0%,_#9190E9_95%)] rounded-[30px]'>
-                <div className="lg:flex justify-between">
+                <div className="md:flex flex-col lg:flex-row items-center justify-between">
                     <div className='flex flex-row items-center mb-[50px] lg:m-0'>
                         <div className='h-[100px] w-[100px] flex justify-center items-center bg-[#ffffff33] rounded-[20px]'>
                             <Image

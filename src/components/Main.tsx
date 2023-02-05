@@ -11,17 +11,17 @@ const Main = () => {
   return (
     <div className='relative z-10'>
         <div className="container mx-auto lg:h-[757px] pt-[155px] md:pt-[230px] lg:pt-0">
-            <div className="grid lg:grid-cols-2 px-[25px] md:px-[8px] items-end lg:h-[757px]">
+            <div className="grid lg:grid-cols-2 px-[25px] lg:px-[8px] items-end lg:h-[757px]">
                 <div className="">
-                    <h1 className='text-[#262524] lg:max-w-[568px] text-[56px] leading-[73px] font-SportingGrotesque font-bold mb-[22px]'>Healthy in side <span className='text-[#8382EB]'>fresh</span> out side</h1>
-                    <p className='text-[#26252499] text-[16px] leading-[28px] font-Poppins mb-[22px] lg:max-w-[489px]'>Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine.</p>
+                    <h1 className='text-[#262524] lg:max-w-[568px] text-[30px] md:text-[60px] lg:text-[56px] leading-[140%] md:leading-[73px] font-SportingGrotesque font-bold mb-[22px]'>Healthy in side <span className='text-[#8382EB]'>fresh</span> out side</h1>
+                    <p className='text-[#26252499] text-[12px] md:text-[16px] leading-[28px] font-Poppins mb-[22px] lg:max-w-[489px]'>Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine.</p>
                     <div className='mb-[51px] flex'>
-                        <button className='text-[16px] font-Poppins px-[24px] py-[16px] bg-[#264373] shadow-[0_20px_80px_rgba(51,78,123,0.3)] rounded-[10px] text-white mr-[35px] flex items-center w-[245px] min-w-[180px] justify-between'>Get started <IoIosArrowDroprightCircle className='h-[26px] w-[26px]' /> </button>
-                        <button className='text-[16px] font-Poppins px-[21px] py-[16px] bg-white shadow-[0_20px_80px_rgba(51,78,123,0.3)] rounded-[10px] text-[#264373] flex items-center max-w-[190px] min-w-[170px] justify-between'> <IoMdArrowDroprightCircle className='h-[26px] w-[26px]' /> Learn more </button>
+                        <button className='text-[12px] md:text-[16px] font-Poppins px-[20px] lg:px-[24px] py-[16px] bg-[#264373] shadow-[0_20px_80px_rgba(51,78,123,0.3)] rounded-[10px] text-white mr-[20px] lg:mr-[35px] flex items-center min-w-[175px] lg:w-[245px] justify-between'>Get started <IoIosArrowDroprightCircle className='h-[26px] w-[26px]' /> </button>
+                        <button className='text-[12px] md:text-[16px] font-Poppins px-[18px] lg:px-[21px] py-[16px] bg-white shadow-[0_20px_80px_rgba(51,78,123,0.3)] rounded-[10px] text-[#264373] flex items-center max-w-[190px] min-w-[135px] justify-between'> <IoMdArrowDroprightCircle className='h-[26px] w-[26px]' /> Learn more </button>
                     </div>
                     <div>
                         <p className='mb-[15px] text-[16px] font-Poppins px-[24px] text-[#262524]'>Brands:</p>
-                        <div className='flex justify-between items-center w-full lg:max-w-[460px]'>
+                        <div className='flex justify-between items-center  lg:max-w-[460px]'>
                             <Image
                                 className="h-[21px] w-[45px] md:h-[28px] md:w-[89px]"
                                 src={Nike}
