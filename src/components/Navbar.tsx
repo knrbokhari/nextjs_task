@@ -2,13 +2,10 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react'
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
     const [shadow, setShadow] = useState(false);
-    const [linkColor, setLinkColor] = useState('#1f2937');
 
     const handleNav = () => {
         setNav(!nav);
@@ -61,9 +58,8 @@ const Navbar = () => {
         </ul>
         {/* Hamburger Icon */}
         <div
-          style={{ color: `${linkColor}` }}
           onClick={handleNav}
-          className='lg:hidden'
+          className='lg:hidden text-[#1f2937]'
         >
           <AiOutlineMenu size={25} />
         </div>
